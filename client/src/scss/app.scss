@@ -1,6 +1,13 @@
 @import url('https://fonts.googleapis.com/css?family=Merriweather:300,300i&display=swap');
 @import './reset.scss';
 
+.app {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	height: 100vh;
+}
+
 .isdraweropen {
 	overflow: hidden;
 }

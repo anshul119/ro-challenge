@@ -1,3 +1,27 @@
+.wrapper {
+	max-width: 1280px;
+	margin: 72px auto 0 auto;
+	padding: 0 20px 0;
+}
+
+.hero {
+	text-align: center;
+
+	&__topblock {
+		margin-bottom: 100px;
+	}
+
+	&__bigtext {
+		font-size: 48px;
+		padding: 10px 0;
+	}
+
+	&__heading {
+		font-size: 24px;
+		padding: 10px 0;
+	}
+}
+
 @keyframes bounce {
 	0% {
 		transform: translateY(0%);
